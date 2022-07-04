@@ -10,7 +10,7 @@ alert(`-Opciones-`)
 alert(`1 - Crear un archivo nuevo de Gestor de Gastos.`)
 alert(`2 - Finalizar programa.`)
 op = parseInt(prompt(`Ingrese el número de la opción elegida, por favor solo ingresar NÚMEROS ENTEROS del 1 al 2: `))
-alert(op)
+alert(`Opción elegida: ${op}`)
 
 /*Validación de ingreso de datos*/
 while(isNaN(op) || op!=1 && op!=2){

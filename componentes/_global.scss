@@ -1,3 +1,13 @@
-body{
-    background: linear-gradient(#0048ad, #2950bc, #1560bc);
+.container{
+
+    height: 100vh;
+    background: radial-gradient(#165aad, #1262e2, #1c48c2, #015896, #0048ade3);
+
+    h1{
+        padding-top: 40vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
